@@ -1,0 +1,32 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+**/appsettings.Production.json
+**/config.local.*
+
+# Database backups and logs
+*.bak
+*.dump
+*.sql.gz
+*.log
+logs/
+
+# Build and editor outputs
+.vs/
+.vscode/
+.idea/
+node_modules/
+__pycache__/
+*.pyc
+bin/
+obj/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
